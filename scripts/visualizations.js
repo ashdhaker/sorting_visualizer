@@ -1,4 +1,4 @@
-//We only have to change background-color and height of the sorting element.
+
 
 var speed=1000;
 
@@ -21,11 +21,11 @@ function vis_speed()
                 break;
     }
 
-    delay_time=10000/(Math.floor(array_size/10)*speed);        //Decrease numerator to increase speed.
+    delay_time=10000/(Math.floor(array_size/10)*speed);        
 }
 
-var delay_time=10000/(Math.floor(array_size/10)*speed);        //Decrease numerator to increase speed.
-var c_delay=0;//This is updated ov every div change so that visualization is visible.
+var delay_time=10000/(Math.floor(array_size/10)*speed);        
+var c_delay=0;
 
 function div_update(cont,height,color)
 {
