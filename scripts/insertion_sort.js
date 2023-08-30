@@ -1,11 +1,11 @@
 function Insertion()
 {
-    //Setting Time complexities
+    
     document.getElementById("Time_Worst").innerText="O(N^2)";
     document.getElementById("Time_Average").innerText="Θ(N^2)";
     document.getElementById("Time_Best").innerText="Ω(N)";
 
-    //Setting Space complexity
+    
     document.getElementById("Space_Worst").innerText="O(1)";
 
     c_delay=0;
@@ -29,7 +29,7 @@ function Insertion()
             div_update(divs[i],div_sizes[i],"blue");//Color update
 
             div_update(divs[i+1],div_sizes[i+1],"yellow");//Color update
-            // this yellow tells how many div containers we have shifted.
+            
             i-=1;
         }
         div_sizes[i+1]=key;
